@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>13630edfc3332a1053f8f8ddd4013116</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Convert String into Array</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netflix" source="x_1519575_netflix">7cc34824c3ff221053f8f8ddd4013126</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Netflix">7cc34824c3ff221053f8f8ddd4013126</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_13630edfc3332a1053f8f8ddd4013116</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 20:46:43</sys_updated_on>
+        <sys_updated_on>2025-09-11 19:26:42</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -166,30 +166,6 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=52c482d3c3732a1053f8f8ddd40131d4"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>52c482d3c3732a1053f8f8ddd40131d4</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:45:51</sys_created_on>
-        <sys_id>e2c482d3c3732a1053f8f8ddd40131ec</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:45:51</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>52c482d3c3732a1053f8f8ddd40131d4</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:45:51</sys_created_on>
-        <sys_id>aac482d3c3732a1053f8f8ddd40131ec</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:45:51</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>separator</field>
         <id>52c482d3c3732a1053f8f8ddd40131d4</id>
@@ -506,11 +482,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2025-09-10 18:45:51</sys_created_on>
         <sys_id>6ec482d3c3732a1053f8f8ddd40131e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Array</sys_name>
         <sys_package display_value="Netflix" source="x_1519575_netflix">7cc34824c3ff221053f8f8ddd4013126</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">7cc34824c3ff221053f8f8ddd4013126</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_52c482d3c3732a1053f8f8ddd40131d4_array_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-09-10 18:45:51</sys_updated_on>
         <url/>
@@ -996,11 +972,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2025-09-10 18:45:51</sys_created_on>
         <sys_id>56c482d3c3732a1053f8f8ddd40131c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Separator</sys_name>
         <sys_package display_value="Netflix" source="x_1519575_netflix">7cc34824c3ff221053f8f8ddd4013126</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">7cc34824c3ff221053f8f8ddd4013126</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_13630edfc3332a1053f8f8ddd4013116_separator_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-09-10 18:45:51</sys_updated_on>
         <url/>
@@ -1019,11 +995,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2025-09-10 18:45:51</sys_created_on>
         <sys_id>96c486dfc3332a1053f8f8ddd4013137</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>String</sys_name>
         <sys_package display_value="Netflix" source="x_1519575_netflix">7cc34824c3ff221053f8f8ddd4013126</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">7cc34824c3ff221053f8f8ddd4013126</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_13630edfc3332a1053f8f8ddd4013116_string_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-09-10 18:45:51</sys_updated_on>
         <url/>
@@ -1044,11 +1020,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2025-09-10 18:45:51</sys_created_on>
         <sys_id>26c4c2d3c3732a1053f8f8ddd4013100</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Netflix" source="x_1519575_netflix">7cc34824c3ff221053f8f8ddd4013126</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">7cc34824c3ff221053f8f8ddd4013126</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_13630edfc3332a1053f8f8ddd4013116___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-09-10 18:45:51</sys_updated_on>
         <url/>
@@ -1067,11 +1043,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2025-09-10 18:45:51</sys_created_on>
         <sys_id>62c482d3c3732a1053f8f8ddd40131fa</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Array</sys_name>
         <sys_package display_value="Netflix" source="x_1519575_netflix">7cc34824c3ff221053f8f8ddd4013126</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">7cc34824c3ff221053f8f8ddd4013126</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_13630edfc3332a1053f8f8ddd4013116_array_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-09-10 18:45:51</sys_updated_on>
         <url/>
@@ -1090,11 +1066,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2025-09-10 18:45:51</sys_created_on>
         <sys_id>aec482d3c3732a1053f8f8ddd40131f5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Netflix" source="x_1519575_netflix">7cc34824c3ff221053f8f8ddd4013126</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">7cc34824c3ff221053f8f8ddd4013126</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_13630edfc3332a1053f8f8ddd4013116___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-09-10 18:45:51</sys_updated_on>
         <url/>
@@ -1280,30 +1256,6 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=bec4c2d3c3732a1053f8f8ddd401313c"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>bec4c2d3c3732a1053f8f8ddd401313c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:45:53</sys_created_on>
-        <sys_id>76c4c2d3c3732a1053f8f8ddd401315e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:45:53</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>bec4c2d3c3732a1053f8f8ddd401313c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 18:45:53</sys_created_on>
-        <sys_id>3ac4c2d3c3732a1053f8f8ddd401315e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-10 18:45:53</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>separator</field>
         <id>bec4c2d3c3732a1053f8f8ddd401313c</id>
@@ -1620,11 +1572,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2025-09-10 18:45:53</sys_created_on>
         <sys_id>bac4c2d3c3732a1053f8f8ddd401314b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Array</sys_name>
         <sys_package display_value="Netflix" source="x_1519575_netflix">7cc34824c3ff221053f8f8ddd4013126</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">7cc34824c3ff221053f8f8ddd4013126</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_bec4c2d3c3732a1053f8f8ddd401313c_array_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-09-10 18:45:53</sys_updated_on>
         <url/>
@@ -2110,11 +2062,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2025-09-10 18:45:52</sys_created_on>
         <sys_id>b2c4c2d3c3732a1053f8f8ddd4013138</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Separator</sys_name>
         <sys_package display_value="Netflix" source="x_1519575_netflix">7cc34824c3ff221053f8f8ddd4013126</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">7cc34824c3ff221053f8f8ddd4013126</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_7ac4c2d3c3732a1053f8f8ddd401312d_separator_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-09-10 18:45:52</sys_updated_on>
         <url/>
@@ -2133,11 +2085,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2025-09-10 18:45:52</sys_created_on>
         <sys_id>b6c4c2d3c3732a1053f8f8ddd4013134</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>String</sys_name>
         <sys_package display_value="Netflix" source="x_1519575_netflix">7cc34824c3ff221053f8f8ddd4013126</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">7cc34824c3ff221053f8f8ddd4013126</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_7ac4c2d3c3732a1053f8f8ddd401312d_string_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-09-10 18:45:52</sys_updated_on>
         <url/>
@@ -2158,11 +2110,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2025-09-10 18:45:53</sys_created_on>
         <sys_id>7ac4c2d3c3732a1053f8f8ddd401316a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Array</sys_name>
         <sys_package display_value="Netflix" source="x_1519575_netflix">7cc34824c3ff221053f8f8ddd4013126</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">7cc34824c3ff221053f8f8ddd4013126</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_7ac4c2d3c3732a1053f8f8ddd401312d_array_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-09-10 18:45:53</sys_updated_on>
         <url/>
@@ -2181,11 +2133,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2025-09-10 18:45:53</sys_created_on>
         <sys_id>83c4c2d3c3732a1053f8f8ddd4013170</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Netflix" source="x_1519575_netflix">7cc34824c3ff221053f8f8ddd4013126</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">7cc34824c3ff221053f8f8ddd4013126</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_7ac4c2d3c3732a1053f8f8ddd401312d___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-09-10 18:45:53</sys_updated_on>
         <url/>
@@ -2204,11 +2156,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2025-09-10 18:45:53</sys_created_on>
         <sys_id>f6c4c2d3c3732a1053f8f8ddd4013166</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Netflix" source="x_1519575_netflix">7cc34824c3ff221053f8f8ddd4013126</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">7cc34824c3ff221053f8f8ddd4013126</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_7ac4c2d3c3732a1053f8f8ddd401312d___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-09-10 18:45:53</sys_updated_on>
         <url/>
