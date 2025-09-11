@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>release_year</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 20:11:45</sys_created_on>
+        <sys_id>c84548fec373661053f8f8ddd4013114</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>release_year</sys_name>
+        <sys_package display_value="Netflix" source="x_1519575_netflix">7cc34824c3ff221053f8f8ddd4013126</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">7cc34824c3ff221053f8f8ddd4013126</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c84548fec373661053f8f8ddd4013114</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 20:12:05</sys_updated_on>
+        <table>x_1519575_netflix_media</table>
+        <ui_policy display_value="Show release date or release year">49f440fec373661053f8f8ddd40131eb</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=c84548fec373661053f8f8ddd4013114"/>
+</record_update>
