@@ -5,7 +5,7 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Writers</column_label>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Netflix">7cc34824c3ff221053f8f8ddd4013126</sys_scope>
         <sys_update_name>sys_dictionary_x_1519575_netflix_media_writers</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-02 14:34:29</sys_updated_on>
+        <sys_updated_on>2025-09-15 16:40:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
